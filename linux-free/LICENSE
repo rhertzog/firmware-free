@@ -161,6 +161,35 @@ Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
 
 --------------------------------------------------------------------------
 
+Driver: ath9k_htc - Atheros HTC devices (USB)
+
+File: htc_9271.fw
+File: htc_7010.fw
+Source: open-ath9k-htc-firmware/
+
+Downloaded from https://github.com/qca/open-ath9k-htc-firmware/archive/146bff1075a9f62c5d64c984bf6db502f8cd2671.tar.gz
+
+Licence: ClearBSD. See source code in open-ath9k-htc-firmware/
+
+The Qualcomm Atheros owned code is under the ClearBSD licence.
+
+The NOTICES.TXT file contains copyright notices for software which
+this firmware release leverages.
+
+There is some code that is based off of work done under contract
+but is owned by Qualcomm Atheros; the original copyright statements
+from that work are in NOTICES.TXT.
+
+The Tensilica code (xtos/xtensa) is distributed with permission from
+Tensilica, Inc., under the MIT licence.
+
+There are three ECOS source files distributed under the terms of
+the GPLv2, with a caveat that linking or using the source files does
+not bring the rest of the binary under the GPLv2.  Please read the
+ECOS caveats in more detail.
+
+--------------------------------------------------------------------------
+
 On Debian systems the text of the GPL version 2 can be found in
 /usr/share/common-licenses/GPL-2, and the text of the GPL version 3
 can be found in /usr/share/common-licenses/GPL-3.

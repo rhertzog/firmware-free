@@ -8,6 +8,11 @@ firmware-free (3.4) UNRELEASED; urgency=medium
 
   [ Raphaël Hertzog ]
   * Switch to linux-support-3.16.0-4.
+  * Include htc_9271.fw and htc_7010.fw as built from
+    https://github.com/qca/open-ath9k-htc-firmware/ at commit
+    146bff1075a9f62c5d64c984bf6db502f8cd2671. Add "Replaces: firmware-atheros
+    (<< 0.44~)" to take over those files from this non-free package.
+    Closes: #711470
 
  -- Ben Hutchings <ben@decadent.org.uk>  Sat, 22 Feb 2014 22:09:39 +0000
 

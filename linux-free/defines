@@ -33,8 +33,11 @@ files:
  usbdux_firmware.bin
  usbduxfast_firmware.bin
  usbduxsigma_firmware.bin
+ htc_9271.fw
+ htc_7010.fw
 support: initramfs-tools
 uri: http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git
+replaces: firmware-atheros (<< 0.44~)
 
 [av7110/bootcode.bin_base]
 desc: AV7110 DVB card firmware
@@ -111,3 +114,9 @@ desc: USB-DUXfast firmware
 
 [usbduxsigma_firmware.bin_base]
 desc: USB-DUXsigma firmware
+
+[htc_9271.fw_base]
+desc: Qualcomm Atheros AR9271 firmware
+
+[htc_7010.fw_base]
+desc: Qualcomm Atheros AR7010 firmware
